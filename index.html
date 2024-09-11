@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Pad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Drawing Pad</h1>
+    <p>Please draw a dancing rabbit and a sleeping duck.</p>
+    <div id="canvasContainer">
+        <canvas id="drawingCanvas"></canvas>
+    </div>
+    <br>
+    <button id="startButton">Start</button>
+    <button id="eraseButton" disabled>Erase</button>
+    <button id="submitButton" disabled>Submit</button>
+    <p id="timer">Time Left: 05:00</p>
+    <label for="colorPicker">Choose Color: </label>
+    <input type="color" id="colorPicker" value="#000000">
+    <script src="script.js"></script>
+</body>
+</html>
